@@ -1,18 +1,18 @@
 plugins {
 	java
-	id("org.springframework.boot") version "2.7.6"
-	id("io.spring.dependency-management") version "1.0.15.RELEASE"
+	id("org.springframework.boot") version "2.3.2.RELEASE"
+	id("io.spring.dependency-management") version "1.0.11.RELEASE"
 }
 
 group = "com.murik"
 version = "0.0.1-SNAPSHOT"
-java.sourceCompatibility = JavaVersion.VERSION_17
+java.sourceCompatibility = JavaVersion.VERSION_11
 
 repositories {
 	mavenCentral()
 }
 
-extra["springCloudVersion"] = "2021.0.5"
+extra["springCloudVersion"] = "Hoxton.SR9"
 
 dependencies {
 	implementation("org.springframework.cloud:spring-cloud-config-server")

@@ -2,17 +2,13 @@ value: value-for-profile-override
 all-value: value-for-all-ms
 ---
 spring:
-  config:
-    activate:
-      on-profile: dev
+  profiles: dev
 
 value: value-dev
 dev-all-ms-value: value-dev-for-all-ms
 ---
 spring:
-  config:
-    activate:
-      on-profile: prod
+  profiles: prod
 
 value: value-prod
 dev-all-ms-value: value-prod-for-all-ms

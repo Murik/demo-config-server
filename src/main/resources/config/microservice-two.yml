@@ -1,13 +1,9 @@
 two-value: ms-two-all-profile-value
 ---
 spring:
-  config:
-    activate:
-      on-profile: dev
+  profiles: dev
 dev-two-value: ms-two-dev-profile-value
 ---
 spring:
-  config:
-    activate:
-      on-profile: prod
+  profiles: prod
 dev-two-value: ms-prod-dev-profile-value

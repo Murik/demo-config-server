@@ -1,13 +1,9 @@
 one-value: ms-one-all-profile-value
 ---
 spring:
-  config:
-    activate:
-      on-profile: dev
+  profiles: dev
 dev-one-value: ms-one-dev-profile-value
 ---
 spring:
-  config:
-    activate:
-      on-profile: prod
+  profiles: prod
 dev-one-value: ms-one-prod-profile-value
