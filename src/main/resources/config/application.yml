@@ -1,14 +1,13 @@
+---
 value: value-for-profile-override
 all-value: value-for-all-ms
 ---
 spring:
   profiles: dev
-
 value: value-dev
 dev-all-ms-value: value-dev-for-all-ms
 ---
 spring:
   profiles: prod
-
 value: value-prod
 dev-all-ms-value: value-prod-for-all-ms

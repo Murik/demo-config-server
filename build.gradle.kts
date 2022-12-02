@@ -1,7 +1,7 @@
 plugins {
 	java
-	id("org.springframework.boot") version "2.3.2.RELEASE"
-	id("io.spring.dependency-management") version "1.0.11.RELEASE"
+	id("org.springframework.boot") version "2.3.5.RELEASE"
+	id("io.spring.dependency-management") version "1.0.10.RELEASE"
 }
 
 group = "com.murik"
